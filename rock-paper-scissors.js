@@ -1,4 +1,4 @@
-function getComputerChoice() { //Randomly return rock, paper, or scissors
+function getComputerChoice() { // Randomly return rock, paper, or scissors
   let computerSelection = Math.floor(Math.random() * 3)
   if (computerSelection === 0) {
     return "Rock";
@@ -14,7 +14,7 @@ function getComputerChoice() { //Randomly return rock, paper, or scissors
 let playerScore = 0
 let computerScore = 0
 
-function playRound(playerSelection, computerSelection) { //plays a single round and returns a winner
+function playRound(playerSelection, computerSelection) { // plays a single round and returns a winner
   if ((playerSelection === "Rock") && (computerSelection === "Scissors")) {
     playerScore++;
     return `You won! Rock beats scissors`; 
