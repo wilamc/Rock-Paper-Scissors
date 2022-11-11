@@ -1,0 +1,51 @@
+#container {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 250px;
+}
+
+body {
+  background-color: bisque;
+  color:darkslategray;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+button {
+  border-radius: 5px;
+  background-color: antiquewhite;
+  color: darkslategray;
+  font-size: 25px;
+}
+
+#left-box {
+  border-style: double;
+  margin-left: 425px;
+  height: 500px;
+}
+
+p {
+  width: 200px;
+  margin: 15px;
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+#right-box {
+  border-style: double;
+  height: 500px;
+  width: 250px;
+}
+
+.round {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.score {
+  text-align: center;
+  padding-bottom: 25px;
+  text-decoration: underline;
+}
